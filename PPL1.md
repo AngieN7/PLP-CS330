@@ -16,7 +16,7 @@ In addition to a text editor, one needs a compiler, as C++ is a compiler languag
 
     _ex. helloworld.cpp_
 
-2. Then you will compile the program by calling the appropriate compiler, with the name of the file you'd like the results to output to and the file name. If there are errors the code will not compile, and the terminal will reflect the location of the error, as well as the type of error. Once the error is corrected in the text editor, one must be sure to re-compile the file with this same command. 
+2. Then you will compile the program by calling the appropriate compiler, with the name of the file you'd like the results to output to and the file that it is taking input from. If there are errors the code will not compile, and the terminal will reflect the location of the error, as well as the type of error. Once the error is corrected in the text editor, one must be sure to re-compile the file with this same command. 
 
    _ex. gcc -o helloworld helloworld.cpp_
 
@@ -28,9 +28,9 @@ _Pro-tip, one can bypass most of these steps by using an IDE that is compatible 
 
 ### Adding Comments to C++ Code 
 
-To add comments to this code, use two forward slashes followed by the comment, and then followed by two more forward slashes. 
+To add comments to this code, use two forward slashes followed by the comment. 
 
-_ex //Commenting something//_
+_ex //Commenting something_
 
 Or- in cases of multi-lined comments, you will use forward slash+star followed by the comment, another star, and another forward slash. 
 
